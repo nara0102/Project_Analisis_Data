@@ -3,6 +3,17 @@ Proyek ini bertujuan untuk menganalisis kualitas udara di Kota Changping berdasa
 
 # Setup Environment Python
 brew install python
+
 python3 --version
 
-# Setup 
+pip3 install -r requirements.txt
+
+# Setup Environment Streamlit
+pip3 install streamlit
+
+pip3 show streamlit
+
+pip3 install -r requirements.txt
+
+# Menjalankan Dasboard
+## Masuk Ke Folder Tempat File Dasboard.py Berada
