@@ -13,7 +13,7 @@ df["datetime"] = pd.to_datetime(df["year"].astype(str) + "-" +
                                 df["hour"].astype(str) + ":00:00")
 
 # Header dashboard
-st.title("Dashboard Kualitas Udara Kota Changping 🌍")
+st.title("Dashboard Kualitas Udara Kota Changping 🌫️🌍")
 st.write("Analisis tren PM2.5 dan PM10 berdasarkan waktu dan faktor lingkungan.")
 
 # Visualisasi Tren PM2.5 dan PM10
@@ -50,5 +50,5 @@ sns.scatterplot(x=df["CO"], y=df["PM2.5"], ax=ax)
 plt.title("Hubungan Antara CO dan PM2.5")
 st.pyplot(fig)
 
-st.write("Dashboard ini membantu memahami pola polusi udara dan faktor yang memengaruhinya. 🚀")
+st.write("Dashboard ini membantu memahami pola polusi udara dan faktor yang memengaruhinya")
 
