@@ -1,6 +1,4 @@
 # Project Analisis Data
-Proyek ini bertujuan untuk menganalisis kualitas udara di Kota Changping berdasarkan data polusi udara seperti PM2.5 dan PM10. Data eksplorasi dilakukan untuk memahami pola fluktuasi polusi berdasarkan waktu, musim, dan faktor lingkungan seperti curah hujan dan kecepatan angin. 
-
 Dashboard interaktif dibuat menggunakan Streamlit, memungkinkan pengguna untuk mengeksplorasi data berdasarkan rentang waktu, musim, kondisi cuaca, serta memahami hubungan dengan faktor lingkungan seperti curah hujan dan kecepatan angin.
 
 # #Penginstalan Pada macOS
