@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("Cleaned_PRSA_Data_Changping.csv")
+df = pd.read_csv("Dashboard/Cleaned_PRSA_Data_Changping.csv")
 
 # Konversi datetime
 df["datetime"] = pd.to_datetime(df["year"].astype(str) + "-" + 
