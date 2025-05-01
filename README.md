@@ -10,9 +10,10 @@ python3 --version
 
 ## 2. Setup Environment Streamlit
 Navigasikan Ke Folder Tempat Dashboard
+> gunakan ```ls``` untuk melihat semua file dalam direktori
 ```
 cd Downloads/Project_Analisis_Data-main/Dasboard
-pip3 install -r requirements.txt
+pip3 install -- r requirements.txt
 pip3 install streamlit
 pip3 show streamlit
 ```
@@ -22,7 +23,7 @@ pip3 show streamlit
 which Python3
 which pip3
 ```
-> jika Ya, akan muncul (/opt/homebrew/bin/pip3) Lanjutkan
+> jika Ya, akan muncul (**/Dashboard/myenv/bin/pip3** dan **/Dasboard/myenv/bin/python3**), lanjutkan
 
 ## 4. Menjalankan Dasboard
 Gunakan perintah untuk menjalankan aplikasi:
@@ -41,13 +42,17 @@ python3 -m streamlit run dashboard.py
 >```
 >python3 -m venv myenv
 >sourch myenv/bin/active
->python3 -m pip install streamlit
+>pip install streamlit
 >```
->3. periksa apakah streamlit sudah terinstal:
+>3. upgrade pip bila tersedia dengan perintah:
+>```
+>pip install --upgrade pip
+>```
+>4. periksa apakah streamlit sudah terinstal:
 >```
 >pip3 show streamlit
 >```
->4. lalu jalankan kembali dashboard dengan:
+>5. lalu jalankan kembali dashboard dengan:
 >```
 >python3 -m streamlit run dashboard.py
 >```
